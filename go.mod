@@ -9,12 +9,11 @@ require (
 	github.com/mongodb/grip v0.0.0-20231010153552-fd9e260891f5
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.8.4
+	go.mongodb.org/mongo-driver/v2 v2.0.0-beta1
 	go.opentelemetry.io/otel v1.19.0
 	go.opentelemetry.io/otel/trace v1.19.0
 	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22
 )
-
-require go.mongodb.org/mongo-driver/v2 v2.0.0-beta1
 
 require (
 	github.com/ProtonMail/go-crypto v0.0.0-20230923063757-afb1ddc0824c // indirect
@@ -81,3 +80,5 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/evergreen-ci/amboy => github.com/zackarysantana/amboy v0.0.0-20241008145508-1c09597c404d
